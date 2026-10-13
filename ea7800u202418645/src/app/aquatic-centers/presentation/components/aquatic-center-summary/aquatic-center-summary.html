@@ -1,0 +1,23 @@
+<mat-card class="center-card" aria-label="Aquatic Center Card">
+  <mat-card-header>
+    <mat-card-title aria-label="Center Name">{{ data().name }}</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    @if (data().reservations.length > 0) {
+      <mat-list aria-label="Reservation List">
+        @for (res of data().reservations; track res.id) {
+          <mat-list-item>
+            <span matListItemTitle>{{ res.participantName }}</span>
+            <span matListItemLine>Participants: {{ res.participants }}</span>
+          </mat-list-item>
+        }
+      </mat-list>
+    } @else {
+      <p aria-label="Empty Reservations">{{ 'home.empty' | translate }}</p>
+    }
+  </mat-card-content>
+  <mat-card-actions class="card-footer">
+    <span aria-label="Total Participants"><strong>{{ 'home.total-participants' | translate }}</strong> {{ data().totalParticipants }}</span>
+    <span aria-label="Available Capacity"><strong>{{ 'home.available-capacity' | translate }}</strong> {{ data().availableCapacity }}</span>
+  </mat-card-actions>
+</mat-card>

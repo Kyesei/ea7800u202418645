@@ -1,0 +1,4 @@
+.form-container { max-width: 600px; margin: 16px 0; }
+.form { display: flex; flex-direction: column; gap: 16px; margin-top: 24px; }
+.actions { display: flex; gap: 16px; margin-top: 16px; }
+.title { margin: 16px 0; }
