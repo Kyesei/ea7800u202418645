@@ -1,0 +1,38 @@
+{
+  "toolbar": {
+    "title": "Plataforma de Gestión de Centros Acuáticos AquaLife",
+    "home": "Inicio",
+    "new-reservation": "Nueva Reserva"
+  },
+  "home": {
+    "title": "Inicio",
+    "subtitle": "Gestión Inteligente de Reservas y Capacidad para Centros Acuáticos.",
+    "section-title": "Mis Centros Acuáticos",
+    "empty": "Vacío",
+    "total-participants": "Participantes Totales:",
+    "available-capacity": "Capacidad Disponible:"
+  },
+  "new-reservation": {
+    "title": "Nueva Reserva",
+    "subtitle": "Registrar Participantes en su Centro Acuático",
+    "activity-type": "Tipo de Actividad",
+    "participant-name": "Nombre del Participante",
+    "participants": "Participantes",
+    "create": "Crear",
+    "cancel": "Cancelar",
+    "error-required": "Este campo es obligatorio",
+    "error-capacity": "Los participantes exceden la capacidad disponible",
+    "error-weather": "Error al obtener datos meteorológicos.",
+    "activities": {
+      "swimming": "Natación",
+      "diving": "Buceo",
+      "aqua-fitness": "Aqua Fitness",
+      "water-polo": "Waterpolo"
+    }
+  },
+  "not-found": {
+    "title": "Página no encontrada",
+    "message": "La ruta {path} no existe.",
+    "return": "Volver al inicio"
+  }
+}

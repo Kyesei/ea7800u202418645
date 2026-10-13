@@ -1,0 +1,38 @@
+{
+  "toolbar": {
+    "title": "AquaLife Aquatic Center Management Platform",
+    "home": "Home",
+    "new-reservation": "New Reservation"
+  },
+  "home": {
+    "title": "Home",
+    "subtitle": "Smart Reservations and Capacity Management for Aquatic Centers.",
+    "section-title": "My Aquatic Centers",
+    "empty": "Empty",
+    "total-participants": "Total Participants:",
+    "available-capacity": "Available Capacity:"
+  },
+  "new-reservation": {
+    "title": "New Reservation",
+    "subtitle": "Register Participants at Your Aquatic Center",
+    "activity-type": "Activity Type",
+    "participant-name": "Participant Name",
+    "participants": "Participants",
+    "create": "Create",
+    "cancel": "Cancel",
+    "error-required": "This field is required",
+    "error-capacity": "Participants exceed available capacity",
+    "error-weather": "Error fetching weather data. Please try again.",
+    "activities": {
+      "swimming": "Swimming",
+      "diving": "Diving",
+      "aqua-fitness": "Aqua Fitness",
+      "water-polo": "Water Polo"
+    }
+  },
+  "not-found": {
+    "title": "Page not found",
+    "message": "The path {path} does not exist.",
+    "return": "Go home"
+  }
+}
