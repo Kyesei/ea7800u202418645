@@ -13,7 +13,6 @@ export const appConfig: ApplicationConfig = {
     provideHttpClient(),
     provideAnimationsAsync(),
     provideTranslateService({
-      defaultLanguage: 'en',
       loader: provideTranslateHttpLoader({ prefix: './i18n/', suffix: '.json' })
     })
   ]
